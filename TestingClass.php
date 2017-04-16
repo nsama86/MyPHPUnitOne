@@ -26,9 +26,9 @@ class TestingClass extends TestCase
 
 
   public function testThree(){
-    $stack = ["Foo"];
+    $stack = ["Foo", "Bar", "Name"];
 
-    $this->assertEquals(0, count($stack));
+    $this->assertEquals(3, count($stack));
   }
 
   public function testFour(){
