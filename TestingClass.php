@@ -24,12 +24,12 @@ class TestingClass extends TestCase
     $this->assertEquals(1, count($stack));
   }
 
-  /*
+
   public function testThree(){
     $stack = ["Foo"];
 
     $this->assertEquals(0, count($stack));
-  }*/
+  }
 
   public function testFour(){
     $stack = ["Foo", "Bar"];
