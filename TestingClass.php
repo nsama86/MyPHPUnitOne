@@ -31,4 +31,10 @@ class TestingClass extends TestCase
     $this->assertEquals(0, count($stack));
   }*/
 
+  public function testFour(){
+    $stack = ["Foo", "Bar"];
+
+    $this->assertEquals(2, count($stack));
+  }
+
 }
